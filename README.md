@@ -14,22 +14,7 @@ El componente incluye un sistema CRUD completo:
 
 📂 Estructura del Proyecto
 
-administrator/components/com_libros/
-├── controllers/
-│   └── libros_controller.php    # Gestión de tareas (save, delete, display)
-├── models/
-│   └── libros_model.php         # Consultas SQL a la base de datos
-├── views/
-│   ├── libros/                  # Vista del listado (Plural)
-│   │   ├── view.html.php
-│   │   └── tmpl/
-│   │       └── default.php
-│   └── libro/                   # Vista del formulario (Singular)
-│       ├── view.html.php
-│       └── tmpl/
-│           └── default.php
-├── libros.php                   # Punto de entrada del componente
-└── access.xml                   # Configuración de permisos (ACL)
+<ul> <li> 📁 <b>com_libros/</b> <ul> <li> 📁 <b>controllers/</b> <ul> <li>📄 <code>libros_controller.php</code></li> </ul> </li> <li> 📁 <b>models/</b> <ul> <li>📄 <code>libros_model.php</code></li> </ul> </li> <li> 📁 <b>views/</b> <ul> <li> 📁 <b>libros/</b> <small>(Listado)</small> <ul> <li>📄 <code>view.html.php</code></li> <li>📁 <b>tmpl/</b> ➔ 📄 <code>default.php</code></li> </ul> </li> <li> 📁 <b>libro/</b> <small>(Formulario)</small> <ul> <li>📄 <code>view.html.php</code></li> <li>📁 <b>tmpl/</b> ➔ 📄 <code>default.php</code></li> </ul> </li> </ul> </li> <li>📄 <code>libros.php</code> <small>(Entrada principal)</small></li> <li>📄 <code>libros.xml</code> <small>(Instalador)</small></li> </ul> </li> </ul>
 
 🛠️ Instalación
 Requisitos previos
