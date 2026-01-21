@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="component" version="5.0.0" method="upgrade">
+    <name>com_libros</name>
+    <author>Tu Nombre</author>
+    <creationDate>2024-06-20</creationDate>
+    <copyright>Copyright (C) 2024</copyright>
+    <license>GPL</license>
+    <version>1.0.0</version>
+    <description>Componente Libros - Estilo Legacy para Joomla 5</description>
+
+    <!-- Archivos de la parte pública (Site) -->
+    <files folder="site">
+        <folder>controllers</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <filename>libros.php</filename>
+    </files>
+
+    <administration>
+        <!-- Menú en el panel de control -->
+        <menu>com_libros</menu>
+        
+        <!-- Archivos de la parte administrativa -->
+        <files folder="admin">
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <filename>libros.php</filename>
+            <filename>config.xml</filename>
+        </files>
+    </administration>
+</extension>
